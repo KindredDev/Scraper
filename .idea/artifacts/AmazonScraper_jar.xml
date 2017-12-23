@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="AmazonScraper:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/AmazonScraper_jar</output-path>
+    <root id="archive" name="AmazonScraper.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="AmazonScraper" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/mongodb/bson/3.4.2/bson-3.4.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver-core/3.4.2/mongodb-driver-core-3.4.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver/3.4.2/mongodb-driver-3.4.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/dependencies/jsoup-1.10.2.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
